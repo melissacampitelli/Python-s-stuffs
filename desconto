@@ -1,0 +1,4 @@
+valor = float(input('Qual o valor do produto?'))
+p = valor - (valor * 5 /100)
+#valor - 5%
+print('O valor do produto é de {} mas com desconto de 5% ficou {}'.format(valor, p))
