@@ -1,0 +1,5 @@
+n1 = int(input('digite um valor:'))
+ant = n1 - 1
+suc = n1 + 1
+
+print(' O antecessor de {}  é o número {} e o sucessor é o número {}'.format(n1, ant, suc))
