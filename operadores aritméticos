@@ -1,0 +1,10 @@
+n1 = int(input('digite um valor'))
+n2 = int(input('digite outro valor'))
+so = n1 + n2
+sub = n1 - n2
+div = n1 / n2
+mul = n1 * n2
+di = n1 // n2
+exp = n1 ** n2
+print(' A soma é {}, a subtração é {}, a divisão é {} e a multiplicação é {}'.format(so,sub,div,mul))
+print(' A divisão inteira é {} e a potência é {}'.format(di,exp))
