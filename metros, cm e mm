@@ -1,6 +1,6 @@
 n1 = int(input('digite o metro: '))
-cm = n1 /100
-mil = n1 /1000
+cm = n1 * 100
+mil = n1 * 1000
 
 
 print(' {} tem {} centímetros e {} milímetros '.format(n1, cm, mil))
