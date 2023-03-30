@@ -6,5 +6,6 @@ div = n1 / n2
 mul = n1 * n2
 di = n1 // n2
 exp = n1 ** n2
-print(' A soma é {}, a subtração é {}, a divisão é {} e a multiplicação é {}'.format(so,sub,div,mul))
+print(' A soma é {},\n a subtração é {},\n a divisão é {:.3f}\n e a multiplicação é {}'.format(so,sub,div,mul))
+#quebra de linha \n e contagem de casas decimais (3 casas) {:.3f}
 print(' A divisão inteira é {} e a potência é {}'.format(di,exp))
