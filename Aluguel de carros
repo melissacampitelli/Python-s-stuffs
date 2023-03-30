@@ -1,0 +1,5 @@
+dias = int(input('quantos dias o carro foi usado?'))
+km = float(input('quantos km rodou?'))
+#considerando que a diária custa 60 reais e o km 0.15 
+pago = (dias * 60) + (km * 0.15)
+print('o total a pagar é de {:.2f}'.format(pago))
