@@ -1,0 +1,3 @@
+n1 = int(input('digite quantos reais você tem: '))
+dol = n1 /5
+print('Tendo {} reais, você pode comprar {} doláres'.format(n1, dol))
